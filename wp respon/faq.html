@@ -1,0 +1,177 @@
+<html>
+    <head>
+            <link href="faq.css" rel="stylesheet">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+            <section class="head">
+                    <b>  <p style="float: left">call us:919876543210</p></b>
+                    <canvas id="square" width="250" height="200"></canvas>
+                    <script>
+                      
+      var c = document.getElementById("square");
+var ctx = c.getContext("2d");
+ctx.fillStyle='#c3b3ff';
+ctx.fillRect(50,25,180,97);
+ctx.font = "26px Arial";
+ctx.fillStyle='black';
+ctx.fillText("TEAM DRIVE",60,110,250);
+                    </script>
+                    
+                  <span><b style="float: right">Time:8:00-20:00 Mon-Sun&nbsp;</b></span>    
+                          </section>
+              
+              
+              
+              <div class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <div class="dropdown">
+                  <button class="dropbtn">Features
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="instructor.html">Instructor</a>
+                    <a href="selectpackage.html">Driving Packages</a>
+                    <a href="finalservice.html">Services</a>
+                  </div>
+                </div>
+                <a href="aboutus.html">About Us</a>
+                <a href="democontact1.html">Enquiry</a>
+                <a href="faq.html" class="faqact">FAQ</a>
+                <a href="finalfeedback.html">Feedback</a>
+                <a href="login.html">Logout</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+              </div>
+              
+              <script>
+              function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                  x.className += " responsive";
+                } else {
+                  x.className = "topnav";
+                }
+              }
+              </script> 
+              
+              
+              <!-- header completes -->
+              
+
+        <!-- faq start -->
+        <h1>Frequently Asked Questions</h1>
+        <button class="collapsible">Is the written test permit included in your program?</button>
+        <div class="content">
+                <p>Yes,the preparation of written test for learning license is included in our program.students are eligible to take it after they have completed all their classes and are 16 years old.</p>
+
+        </div>
+        
+
+        
+        <button class="collapsible">Will the driving lessons are in our car or team drive's car?</button>
+        <div class="content">
+          <p>
+              All driving lessons take place in our cars in most of situation.But if someone want to use their car then there is no issue in that.
+          </p>
+        </div>
+
+
+        <button class="collapsible">Who do i contact if i have any questions or need tech support?</button>
+        <div class="content">
+          <p>
+                We offer both phone and email support during the business hours (8am to 8pm) or email anytime.
+                We believe that customer service is very important for both yours and our success, so we prioritize timely and thorough responses to your questions.
+             </p>
+        </div>
+
+
+        <button class="collapsible">Which is most preferable package for any working person?</button>
+        <div class="content">
+          <p>
+               As Most of people have their work during monday to friday.So we have special package of weekend. 
+             </p>
+        </div>
+
+
+        <button class="collapsible">Is there a facility to cancel the Booking?</button>
+        <div class="content">
+          <p>
+            Sorry,Once the booking is made you did not have any facility to cancel the booking.It is not there in our policy.
+             </p>
+        </div>
+
+        <button class="collapsible">What is minimum age to apply for learner's license?</button>
+        <div class="content">
+          <p>
+         The minimum age to apply for learner's license is 16 Years.
+             </p>
+        </div>
+
+        <button class="collapsible">Can you allow person to apply for license through your agent if he is not your student?</button>
+        <div class="content">
+          <p>
+        No we won't allow.
+             </p>
+        </div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+        <!-- faq end -->
+
+
+
+        <!-- FOOTER START -->
+        <div class="footer"> 
+          <div class="contain">
+          <div class="col">
+            <ul>
+              <h1 >facilities</h1>
+              <a href="instructor.html" style="text-decoration: none"><li>Instructors</li></a>
+              <a href="selectpackage.html" style="text-decoration: none"><li>Driving Packages</li></a>
+              <a href="finalservice.html" style="text-decoration: none"><li>Services</li></a>
+      
+            </ul>
+          </div>
+          <div class="col">
+                  <h1 >Support</h1>
+            <ul>
+              <a href="democontact1.html" style="text-decoration: none"><li>Enquiry Now</li></a>
+              <a href="faq.html" style="text-decoration: none"><li>FAQ</li></a>
+              <a href="finalfeedback.html" style="text-decoration: none"><li>Feedback</li></a>
+      
+            </ul>
+          </div>
+      
+    
+        <div class="col">
+                <h1> For queries </h1>
+                <input style="color:gray;border-radius: 20px;" placeholder="&nbsp;Type your email address" type="email">
+         </div>
+         <div class="col">
+          <i class='fas fa-chevron-circle-right' style='color: white;margin-top: 45px'></i>
+        </div>
+    
+    
+      <div class="clearfix"></div>
+      </div>
+      </div> 
+      <!-- END OF FOOTER -->
+    </body>
+</html>

@@ -1,0 +1,116 @@
+
+body{
+    margin: 0;
+    margin-left: 5px;
+     padding: 0;
+ 
+     background-size:cover;
+     background-position: center;
+     font-family: sans-serif;
+     overflow-x: hidden;
+     overflow-y: hidden;
+     
+}
+.login-box
+{
+    width:420px;
+    height: 600px;
+    background: rgba(0,0,0,0.5);
+    color:#fff;
+    top:53%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+
+}
+h4{
+    margin: 0;
+    padding: 0 0 20px;
+    color:rgb(255,38,126);
+    text-align: center;
+}
+.login-box p
+{
+padding: 0;
+margin: 0;
+font-weight: bold;
+color: #fff;
+margin-left: 10px;
+}
+.login-box input
+{
+    width: 80%;
+    margin-bottom: 17px;
+    margin-left: 10px;
+
+}
+.login-box input[type="email"],.login-box input[type="password"],.login-box input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 32px;
+    color: #fff;
+    font-size: 16px;
+    background: rgb(255,38,126); 
+    cursor: pointer;
+    border-radius: 20px;
+    width: 100px;
+    margin-left: 130px;
+}
+.login-box input[type="submit"]:hover
+{
+    background: #efed40;
+    color: #262626;
+}
+.login-box a
+{
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+::placeholder
+{
+    color: rgb(255,255,255,0.5);
+}
+.user
+{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    overflow: hidden;
+    position: absolute;
+    top:calc(-100px/2);
+    left:calc(50% - 50px);
+}
+.login-box input[type="radio"] {
+    display: inline;
+    color:white;
+  }
+  @media screen and (max-width: 600px) {
+    
+    .bg
+    {
+    width:100%;
+    height: 100%;
+    
+    }
+    .login-box
+    {
+        width:80%;
+    }
+
+    }
